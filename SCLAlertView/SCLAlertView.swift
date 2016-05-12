@@ -16,15 +16,18 @@ public enum SCLAlertViewStyle {
     var defaultColorInt: UInt {
         switch self {
         case Success:
-            return 0x22B573
+            //return 0x22B573
+            return 0x70AE4C
         case Error:
-            return 0xC1272D
+            //return 0xC1272D
+            return 0xDC2239
         case Notice:
             return 0x727375
         case Warning:
             return 0xFFD110
         case Info:
-            return 0x2866BF
+            //return 0x2866BF
+            return 0x328CAE
         case Edit:
             return 0xA429FF
         case Wait:
